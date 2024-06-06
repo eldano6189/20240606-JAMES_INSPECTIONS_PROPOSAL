@@ -1,0 +1,13 @@
+.header > div:first-of-type {
+  height: 3.55rem;
+  background: linear-gradient(
+    to left,
+    var(--clr-purple-medium) 25%,
+    var(--clr-grey-light)
+  );
+}
+
+.header > div:last-of-type {
+  height: 2.15rem;
+  background: var(--clr-purple-medium);
+}
