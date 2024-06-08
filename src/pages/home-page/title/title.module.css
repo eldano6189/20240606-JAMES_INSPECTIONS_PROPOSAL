@@ -1,0 +1,14 @@
+.container {
+  padding: 1.5rem 0;
+}
+
+.container h1 {
+  padding-bottom: 1rem;
+  color: var(--fc-black);
+}
+
+.container h2 {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--clr-purple-medium);
+}
