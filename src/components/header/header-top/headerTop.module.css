@@ -72,6 +72,10 @@
   padding: 0.25rem 0rem 0.25rem 0.75rem;
 }
 
+.nav ul li:hover svg path {
+  fill: var(--fc-yellow);
+}
+
 .nav ul li a {
   display: flex;
   align-items: center;

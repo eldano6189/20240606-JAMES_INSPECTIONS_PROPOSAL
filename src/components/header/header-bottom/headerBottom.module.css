@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  height: 100%;
+  width: min(var(--max-width), 100%);
+  margin: auto;
+}
+
+.container nav {
+  display: flex;
+  flex: 1 1;
+}
+
+.container nav ul {
+  display: flex;
+  flex: 1 1;
+}
+
+.container nav ul li {
+  display: flex;
+  align-items: center;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+
+.container nav ul li:hover p {
+  color: var(--fc-yellow);
+}
+
+.container nav ul li p {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+  color: var(--clr-grey-light);
+}

@@ -54,8 +54,8 @@ export const JamesLogo = () => {
           fill="#3C3C3E"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M209.827 0H114.687V59.4627H209.827V0ZM190.006 9.91045H130.543V49.5522H190.006V9.91045Z"
           fill="#4F2480"
         />
@@ -258,9 +258,9 @@ export const JamesLogo = () => {
           width="529.097"
           height="148.929"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
