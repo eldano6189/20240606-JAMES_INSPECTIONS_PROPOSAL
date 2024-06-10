@@ -15,14 +15,14 @@
 }
 
 .container__logos svg:nth-of-type(1) {
-  height: 90%;
+  height: 100%;
   width: auto;
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
 }
 
 .container__logos svg:nth-of-type(2) {
   align-self: flex-end;
-  height: 70%;
+  height: 60%;
   width: auto;
   padding: 0.5rem 1rem;
 }
@@ -34,7 +34,7 @@
 }
 
 .container__logos svg:nth-of-type(4) {
-  height: 8rem;
+  height: 8.5rem;
   width: auto;
   padding: 0 1.5rem;
 }
@@ -48,7 +48,7 @@
 }
 
 .user > p {
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: var(--fc-white);
 }
 
@@ -69,7 +69,7 @@
 .nav ul li {
   flex: 1 1;
   display: flex;
-  padding: 0.25rem 0rem 0.25rem 0.75rem;
+  padding: 0.25rem 0rem 0.25rem 1.25rem;
 }
 
 .nav ul li:hover svg path {
@@ -80,4 +80,9 @@
   display: flex;
   align-items: center;
   flex: 1 1;
+}
+
+.nav ul li a svg {
+  height: 2rem;
+  width: auto;
 }

@@ -23,13 +23,27 @@
   cursor: pointer;
 }
 
+.container nav ul li:hover {
+  background: var(--clr-purple-light);
+  border-radius: 0.5rem;
+}
+
+.container nav ul li:hover svg path {
+  fill: var(--fc-yellow);
+}
+
 .container nav ul li:hover p {
   color: var(--fc-yellow);
 }
 
+.container nav ul li svg {
+  height: 1rem;
+  width: auto;
+}
+
 .container nav ul li p {
   text-transform: capitalize;
-  font-size: 0.8rem;
-  padding: 0 0.5rem;
+  font-size: 1rem;
+  padding: 0 0.8rem;
   color: var(--clr-grey-light);
 }
